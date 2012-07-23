@@ -16,6 +16,12 @@ import javax.swing.JSpinner;
 import javax.swing.JTextPane;
 
 
+// 4bit加算器
+// こっちがメインクラス。Java Swing なJFrameを継承→自身をインスタンス化して実行
+// HalfAdder一個、FullAdder三個。計4bit分。
+// ぶっちゃけ出力も4bitだから int A + int B ≦ 15 の範囲でしか値を返せない件(Carryビット見たら一応算出できるけどもさ)
+// あとコレ一応「リレーを使って内部で計算してます」的な要素のプログラムなハズなんだけど、GUIから一切そういうの見えない件orz
+// (ﾟεﾟ)ｷﾆｼﾅｲ!!
 public class RelayAdder extends JFrame{
 	
 	HalfAdder ha01;
