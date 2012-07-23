@@ -1,3 +1,8 @@
+// AND回路クラス
+// リレー二個使ってAND出力
+// イメージ的には下記
+// (電源+)―[relay01のswitch]―[relay02のswitch]―(outputF)
+// switchどっちもtrueでないと出力出ないよ的な感じで
 public class AND{
 	
 	Relay reley01;
