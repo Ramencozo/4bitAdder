@@ -1,3 +1,7 @@
+// EXOR回路クラス
+// リレー二個使ってEXOR出力
+// イメージむずかしいので→「relay01とrelay02のswitchStateがそれぞれ異なっているときにoutputFがtrue」
+// relay01:true && relay02:false またはその逆のときにoutputF:true
 public class EXOR{
 	
 	Relay reley01;
