@@ -1,3 +1,6 @@
+// 全加算器クラス
+// 半加算器二個、OR回路一個
+// 詳しくはググってくだされ
 public class FullAdder{
 
 	HalfAdder ha01;
