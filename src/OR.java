@@ -2,7 +2,7 @@
 // リレー二個使ってAND出力
 // イメージ的には下記
 //　　　　 ┏[relay01のswitch]┓
-// (電源+)┫　　　　　　　　　┣(outputF)
+// (電源+)┫　　　　　　　　　　┣(outputF)
 //　　　　┗[relay02のswitch]┛
 // switchどっちかがtrueなら出力出る的な感じで
 public class OR{
